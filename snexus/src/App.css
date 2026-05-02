@@ -6,6 +6,13 @@
 .MainDisplay {
   display: flex;
 }
+#menu-btn{
+  display: none;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
 .Header {
   display: flex;
   align-items: center;
@@ -183,25 +190,45 @@ text-align: center;
 }
 
 @media (max-width: 768px) {
+  #menu-btn {
+  display: block;
+  }
+  .menu { 
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background: #444;
+    width: 200px;
+    height: 10rem;
+    position: fixed;
+    right: -200px;
+    top: 0;
+    transition: 0.3s;
+    border-radius: 0 0 0 15px;
+  }
+  .menu.active {
+  right: 0;
+  }
+  .menu a{
+    color : #fff;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
   .Header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
   }
   .logo {
     width: 6rem;
-    margin-left: -2rem;
+    margin-right: 1rem;
   }
   .nav {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  .nav-button{
-    margin-left: -0.5rem;
   }
   .nav-link,
   .nav-button {
