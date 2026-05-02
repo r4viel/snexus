@@ -1,0 +1,280 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.MainDisplay {
+  display: flex;
+}
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.MainOne{
+  max-width: 530px;
+  margin-top: 4rem;
+  margin-left: 6rem;
+}
+span {
+  color: #b40000;
+}
+.logo{
+  margin-right: 16rem;
+}
+.nav-link{
+  color: #b40000;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+.nav-button{
+  background-color: #b40000;
+  color: #ffffff;
+  border: 0.3rem solid #b40000;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+.buttonEspecialista{
+  background-color: #b40000;
+  color: #ffffff;
+  border: 0.3rem solid #b40000;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.buttonServicos{
+  background-color: transparent;
+  color: #ffffff;
+  border: 0.3rem solid #b40000;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.shaidt{
+  margin-top: -4rem;
+  margin-left: 4rem;
+}
+.telaTwo{
+  background-color: #ffffff;
+  margin-top: -1.6rem;
+  margin-left: -2.5rem;
+  margin-right: -2.53rem;
+  padding-bottom: 2rem;
+}
+.telaTwo h1{
+  color: #000000;
+  font-size: 2.5rem;
+  width: 42%;
+  margin-left: 4rem;
+  margin-top: -2rem;
+}
+.telaTwo p{
+  color: #000000;
+  margin-left: 4rem;
+  margin-top: 0rem;
+  max-width: 500px;
+}
+.telaTwoUp{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  color: #b40000;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 3rem;
+}
+.telaTwoDown h3{
+  color: #000000;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+.telaTwoDown{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.containerServicos{
+  width: 100%;
+  margin: 1rem;
+  border-radius: 15px;
+  box-shadow: 4px  4px 10px rgba(0, 0, 0, 0.2);
+}
+.containerServicos p{
+  color: #000000;
+  margin: 1rem;
+}
+.telaThreeUp h1{
+  color: #ffffff;
+  font-size: 2.5rem;
+  width: 42%;
+  margin-left: 4rem;
+  margin-top: -2rem; 
+}
+.telaThreeDown{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.telaThreeDown h3{
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+.numero{
+  width: 2rem;
+}
+.telaFour{
+  margin-top: 3rem;
+  background-color: #b40000;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -2.5rem;
+  margin-right: -2.53rem;
+}
+.telaFour h1{
+  color: #ffffff;
+  font-size: 2.5rem;
+  width: 42%;
+  margin-left: 7rem;
+  margin-top: 2rem; 
+}
+.telaFour span{
+  color: #000000;
+}
+.telaFour button{
+  background-color: #000000;
+  height: 5rem;
+  margin-left: 9rem;
+}
+.telaFour img{
+  width: 6rem;
+  margin-top: 3.5rem;
+  margin-left: 4rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.telaFour p{
+  margin-top: 2rem;
+  margin-left: 9rem;
+  width: 50%;
+}
+.contato{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contato h1{
+  color: #ffffff;
+  font-size: 2rem;
+}
+#sobre{
+  width: 35%;
+}
+footer{
+  margin-top: 1rem;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+  .Header {
+    display : flex;
+  }
+  .logo {
+    margin: 0 0 1rem 0;
+  }
+  .nav-link,
+  .nav-button {
+    margin-left: 0;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .MainDisplay {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainDisplay button{
+    margin: 1rem 0;
+  }
+  .MainOne {
+    margin: 0rem 0;
+    max-width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .shaidt {
+    margin: 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  .telaTwo {
+    margin: 0;
+    padding: 1rem;
+  }
+  .telaTwo h1 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 1.8rem;
+  }
+  .telaTwo p {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .telaTwoDown {
+    flex-direction: column;
+  }
+  .containerServicos {
+    margin: 1rem 0;
+  }
+  .telaThreeUp h1 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .telaThreeDown {
+    flex-direction: column;
+    align-items: center;
+  }
+  .telaFour {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+  .telaFour h1 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 1.8rem;
+  }
+  .telaFour p {
+    width: 100%;
+    margin-left: 0;
+  }
+  .telaFour button {
+    margin: 1rem 0;
+    height: auto;
+  }
+  .telaFour img {
+    margin: 1rem 0;
+  }
+  .contato {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #sobre {
+    width: 100%;
+  }
+}
