@@ -31,7 +31,7 @@ function TelaTwoDown() {
         <div className="containerServicos">
             <img src={img5} alt="img5" />
             <h3>SEO & Performance</h3>
-            <p>Mais visibilidade noGoogle e melhor performance para gerar trafego qualificado.</p>
+            <p>Mais visibilidade no Google e melhor performance para gerar trafego qualificado.</p>
         </div>
 
     </div>
