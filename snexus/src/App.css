@@ -187,18 +187,18 @@ text-align: center;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center; /* centraliza tudo */
-    gap: 1rem; /* espaço entre logo e nav */
+    justify-content: center;
+    gap: 1rem;
   }
   .logo {
-    width: 5rem; /* diminui a logo */
-    margin: 0;   /* remove deslocamento */
+    width: 6rem;
+    margin: 0;
   }
   .nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; /* evita quebrar layout */
+    flex-wrap: wrap;
   }
   .nav-link,
   .nav-button {
