@@ -185,6 +185,7 @@ text-align: center;
 @media (max-width: 768px) {
   .Header {
     display : flex;
+    width: 80%;
   }
   .logo {
     width: 7rem;
