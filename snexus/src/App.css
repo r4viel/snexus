@@ -195,7 +195,7 @@ text-align: center;
   .nav-button {
     margin-left: 0;
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .MainDisplay {
     flex-direction: column;
