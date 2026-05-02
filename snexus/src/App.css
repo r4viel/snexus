@@ -200,6 +200,9 @@ text-align: center;
     justify-content: center;
     flex-wrap: wrap;
   }
+  .nav-button{
+    margin-left: -0.5rem;
+  }
   .nav-link,
   .nav-button {
     margin: 0 0.3rem;
