@@ -191,7 +191,7 @@ text-align: center;
   }
   .logo {
     width: 6rem;
-    margin-left: 1rem;
+    margin-rigth: 1rem;
   }
   .nav {
     display: flex;
@@ -233,7 +233,7 @@ text-align: center;
     font-size: 1.8rem;
   }
   .telaTwo p {
-    margin-left: 0;
+    margin-left: 1rem;
     max-width: 100%;
   }
   .telaTwoDown {
