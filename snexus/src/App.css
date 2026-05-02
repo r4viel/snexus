@@ -214,6 +214,9 @@ text-align: center;
     font-size: 1rem;
     margin-right: 1rem;
   }
+  ul{
+    flex-direction: column;
+  }
   .Header {
     width: 100%;
     display: flex;
