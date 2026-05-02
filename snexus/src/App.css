@@ -183,9 +183,6 @@ text-align: center;
 }
 
 @media (max-width: 768px) {
-  #root {
-    padding: 1rem;
-  }
   .Header {
     display : flex;
   }
@@ -196,7 +193,7 @@ text-align: center;
   .nav-button {
     margin-left: 0;
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
   .MainDisplay {
     flex-direction: column;
